@@ -10,17 +10,16 @@ import SpriteKit
 
 public class FoodSprite : SKSpriteNode, Palettable {
   public static let foodDishName = "FoodDish"
-  static  let food = [  "corn",
-                        "melon",
-                        "tomato",
-                        "cherries",
+    static  let food = ["melon",
                         "pear",
+                        "mango",
+                        "cherries",
+                        "orange",
+                        "corn",
                         "grapes",
                         "pineapple",
-                        "mango",
-                        "orange",
+                        "tomato",
                         "apple"]
-
   public static var foodIndex = 0
 
   public static func newInstance(palette : ColorPalette) -> FoodSprite {

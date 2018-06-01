@@ -43,15 +43,16 @@ class SoundManager : NSObject, AVAudioPlayerDelegate {
     "cat_meow_7.mp3"
   ]
 
-  private  let foodAudio = [  "corn.mp3",
+  private  let foodAudio = [
                           "melon.mp3",
-                          "tomato.mp3",
-                          "cherries.mp3",
                           "pear.mp3",
+                          "mango.mp3",
+                          "cherries.mp3",
+                          "orange.mp3",
+                          "corn.mp3",
                           "grapes.mp3",
                           "pineapple.mp3",
-                          "mango.mp3",
-                          "orange.mp3",
+                          "tomato.mp3",
                           "apple.mp3"]
 
   private var soundTempMuted = false
